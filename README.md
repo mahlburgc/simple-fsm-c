@@ -94,4 +94,4 @@ graph TD;
  }
  ```
 
- A real example usage can be found in my projects under [STM32F072_Template/Src/ledTask.c](https://github.com/mahlburgc/STM32F072_Template/blob/7091d2e5063ef4d9415fd98142568c6de89f187c/Src/ledTask.c#L85)
+ A real example usage can be found in my projects under [STM32F072_Template/Src/ledTask.c](https://github.com/mahlburgc/STM32F072_Template/blob/0db35e91bd17b96f3e714c1e80b11f2fe21c6279/Src/ledTask.c#L45)
