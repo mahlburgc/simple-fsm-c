@@ -83,7 +83,7 @@ graph TD;
 
      fsmInit(&fsmHandle, FSM_STATE_INIT);
 
-     fsmAdd(&fsmHandle, FSM_STATE_INIT,     StateInit,     onEntryOne,      NULL);
+     fsmAdd(&fsmHandle, FSM_STATE_INIT,     StateInit,     NULL,            NULL);
      fsmAdd(&fsmHandle, FSM_STATE_INACTIVE, StateInactive, OnEntryInactive, NULL);
      fsmAdd(&fsmHandle, FSM_STATE_ACTIVE,   StateActive,   OnEntryActive,   OnExitActive);
 
